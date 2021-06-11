@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+}
+
+/* HEADER */
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #d0d0d0;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5) */
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+ul.anchor-block {
+  list-style: none;
+  padding: 0;
+}
+
+ul.anchor-block li {
+  display: inline-block;
+  margin: 0px 15px;
+}
+
+ul.anchor-block li a {
+  text-decoration: none;
+  color: #555;
+}
+
+ul.anchor-block li a.active {
+  font-weight: 700;
+  color: #f2a82e;
+}
+
+/* MAIN */
+
+#banner {
+  background-image: url("../img/animenz9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+#about {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 5vh;
+  text-align: center;
+}
+
+#about > h2 {
+  font-size: 2rem;
+}
+
+#about > img {
+  width: 80%;
+}
+
+#music {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 5vh;
+}
+
+#music iframe {
+  width: 90%;
+  height: 360px;
+}
+
+#contact {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 5vh;
+}
+
+#contact img {
+  width: 100%;
+  padding-top: 5vh;
+}
+
+#contact > h2 {
+  font-size: 2rem;
+}
+
+#contact div {
+  border-bottom: 1px solid #d0d0d0;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+footer p {
+  padding: 10px;
+  margin: 0;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 768px) {
+  #about {
+    padding: 0 20px;
+  }
+
+  #music {
+    padding: 0 20px;
+  }
+
+  #music iframe {
+    width: 100%;
+    height: 315px;
+  }
+
+  #contact {
+    padding: 0 20px;
+  }
+}
